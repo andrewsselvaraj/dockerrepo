@@ -1,4 +1,4 @@
-$ git /root/dockerrepo/
+$ cd /root/dockerrepo/
 ===========================
 $ /root/dockerrepo/usermanagementsecurityjwt/spring-boot-security-jwt
 $ git clone https://github.com/andrewsselvaraj/usermanagementsecurityjwt
