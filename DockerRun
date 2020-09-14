@@ -1,11 +1,18 @@
 $ cd /root/dockerrepo/
+$ cd /root/dockerrepo/usermanagementsecurityjwt
 ===========================
 $ /root/dockerrepo/usermanagementsecurityjwt/spring-boot-security-jwt
 $ git clone https://github.com/andrewsselvaraj/usermanagementsecurityjwt
 
 $ cd docker-spring-boot
 $ mvn clean package
-$ java -jar target/spring-boot-web.jar
+$ java -jar target/spring-boot-security-jwt-0.0.1-SNAPSHOT.war
+
+
+// create a docker image
+$ docker build -t spring-boot-security-jwt-0.0.1-SNAPSHOT .
+// run it
+$ docker run -d -p 8083:8080 -t spring-boot-security-jwt-0.0.1-SNAPSHOT
 
 //==========
 $ git /root/dockerrepo/
