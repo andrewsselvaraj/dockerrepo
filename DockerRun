@@ -1,4 +1,5 @@
-
+$ git /root/dockerrepo/
+===========================
 $ /root/dockerrepo/usermanagementsecurityjwt/spring-boot-security-jwt
 $ git clone https://github.com/andrewsselvaraj/usermanagementsecurityjwt
 
@@ -7,6 +8,7 @@ $ mvn clean package
 $ java -jar target/spring-boot-web.jar
 
 //==========
+$ git /root/dockerrepo/
 $ git /root/dockerrepo/usermanagement
 $ git clone https://github.com/andrewsselvaraj/usermanagement
 $ java -jar target/spring-security-jwt-1.0-SNAPSHOT.war
