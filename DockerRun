@@ -1,6 +1,8 @@
 
 $ /root/dockerrepo/usermanagementsecurityjwt/spring-boot-security-jwt
 $ git clone https://github.com/andrewsselvaraj/usermanagementsecurityjwt
+
+$ git /root/dockerrepo/usermanagement
 $ git clone https://github.com/andrewsselvaraj/usermanagement
 $ cd docker-spring-boot
 $ mvn clean package
